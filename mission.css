@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+
+body {
+  background-image: url(/imgs/children.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: aliceblue;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+}
+
+header h1 {
+  font-family: "Lobster Two", cursive;
+  color: yellow;
+  font-size: 36px;
+}
+
+.mission-content {
+  max-width: 800px;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.mission-content h2 {
+  color: orange;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.mission-content p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.mission-content ul {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.mission-content li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: aliceblue;
+}
+.back-home {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.back-home a {
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.back-home a:hover {
+  background-color: darkorange;
+}
